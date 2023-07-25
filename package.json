@@ -1,0 +1,13 @@
+{
+  "name": "algorithms-patterns-data--structures",
+  "description": "Set of algorithms, patterns, data structures in JavaScript",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Oleksandr Aleksieiev",
+  "keywords": ["algorithms", "patterns", "data structures"],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
