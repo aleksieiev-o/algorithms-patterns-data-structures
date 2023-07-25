@@ -1,6 +1,6 @@
 {
   "name": "algorithms-patterns-data--structures",
-  "description": "Set of algorithms, patterns, data structures in JavaScript",
+  "description": "Set of algorithms, patterns, data structures on JS and TS",
   "version": "0.0.1",
   "private": true,
   "author": "Oleksandr Aleksieiev",
