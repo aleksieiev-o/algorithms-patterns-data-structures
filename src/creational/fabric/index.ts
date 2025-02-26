@@ -49,7 +49,7 @@ class ConcreteProductB implements IProduct {
   }
 }
 
-const init = (): void => {
+const initFactory = (): void => {
 	const factoryA = new ConcreteCreatorA();
   const productA = factoryA.createProduct();
   productA.doSomething();
@@ -59,4 +59,6 @@ const init = (): void => {
   productB.doSomething();
 }
 
-init(); // Output: ConcreteProductA is doing something. Common property is: ConcreteProductA common field value; ConcreteProductB is doing something. Common property is: ConcreteProductB common field value
+initFactory();
+// ConcreteProductA is doing something. Common property is: ConcreteProductA common field value
+// ConcreteProductB is doing something. Common property is: ConcreteProductB common field value
