@@ -20,4 +20,7 @@ yarn-error.log*
 *.sln
 *.sw?
 
+# Compiled files .js from .ts
+/src/**/*.js
+
 # Other
